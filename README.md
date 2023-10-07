@@ -4,6 +4,11 @@ Ce projet agrège les qques scripts qui ont été crées dans le but du Catch/se
 
 Ci dessous j'utilise le terme `channel` celui ci correspond au `groupe radio` dans la terminologie microbit
 
+## beacon-renew-random-radiogroup.js
+
+à la mise sous tension choisit un channel au hasard entre 0 et 10 et envoie une trame toutes les 200 ms tout en affichant la trame envoyée et le canal choisi via les leds).
+Si pression sur A+B va passer en mode random et changera automatiquement de canal toutes les minutes.
+
 ## beacon.js 
 
 à la mise sous tension choisit un channel au hasard entre 0 et 10 et envoie une trame toutes les 200 ms tout en affichant la trame envoyée et le canal choisi via les leds)
