@@ -27,8 +27,5 @@ Une pression sur AB permet d'afficher le canal
 
 ## signalLevel.js
 
-Même comportement que ci dessus à qques détails près:
-
-* pas de possibilité d'afficher le channel via AB
-* par contre lors de la reception d'une trame le channel est affiché après 500 ms
-* une pause de 5' pour le scan sur chaque channel est observée
+à la mise sous tension se positionne sur la canal 1 et affiche le niveau de reception de façon graphique
+Il est possible de changer le canal par les boutons A et B, tandis que AB affiche le canal en cours
